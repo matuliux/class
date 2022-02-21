@@ -8,21 +8,21 @@ using std::cout;
 using std::cin;
 using std::string;
 using std::endl;
+using std::vector;
 using std::setw;
 using std::left;
 using std::right;
-using std::sort;
 struct Studentas
 {
     string vardas = "";
     string pavarde = "";
-    int Paz[100];
+    vector <double>nd;
     int egz = 0;
     int sum = 0;
     double rez = 0;
     double med = 0;
-    int nd_sk = 0;
 };
+
 void tikr_random(string& ar_random);
 void ivestis(Studentas& temp);
 void isvestis(Studentas& temp);
@@ -76,7 +76,6 @@ void tikr_random(string& ar_random) {
 
 }
 
-
 void ivestis(Studentas& temp)
 {
     int nd, egz;
@@ -85,6 +84,7 @@ void ivestis(Studentas& temp)
     cout << "Iveskite pavarde: "; cin >> temp.pavarde;
     string stop, ar_random;
     tikr_random(ar_random);
+
     if (ar_random == "0") {
         do
         {
@@ -93,11 +93,10 @@ void ivestis(Studentas& temp)
                 if (nd > 0 && nd <= 10)
                 {
 
-                    temp.Paz[i] = nd;
+                    temp.nd.push_back(nd);
                     temp.sum += nd;
 
                     i++;
-                    temp.nd_sk = i;
                     cout << "Ar dar yra pazymiu? 1-taip, 0-ne: "; cin >> stop;
 
                     if (stop != "0" && stop != "1") {
@@ -176,8 +175,7 @@ void ivestis(Studentas& temp)
         {
             nd = (rand() % 10) + 1;
             cout << "Sugeneruotas " << i + 1 << "-as pazymys: " << nd << endl;
-            temp.Paz[i] = nd;
-            temp.nd_sk = i + 1;
+            temp.nd.push_back(nd);
             temp.sum = temp.sum + nd;
         }
 
@@ -197,22 +195,23 @@ void isvestis(Studentas& temp)
 
 void vidurkis(Studentas& temp)
 {
-    double nd_vid = (double)temp.sum / temp.nd_sk;
+    size_t nd_sk = temp.nd.size();
+    double nd_vid = (double)temp.sum / nd_sk;
     temp.rez = 0.4 * nd_vid + 0.6 * temp.egz;
+
 }
 
 void mediana(Studentas& temp)
 {
     double med;
-    sort(temp.Paz, temp.Paz + temp.nd_sk);
-    if (temp.nd_sk % 2 == 0)
+    sort(temp.nd.begin(), temp.nd.end());
+    if (temp.nd.size() % 2 == 0)
     {
-        med = (temp.Paz[temp.nd_sk / 2 - 1] + temp.Paz[temp.nd_sk / 2]) / 2.0;
+        med = (temp.nd[temp.nd.size() / 2 - 1] + temp.nd[temp.nd.size() / 2]) / 2;
     }
     else
     {
-        med = temp.Paz[temp.nd_sk / 2];
+        med = temp.nd[temp.nd.size() / 2];
     }
-
     temp.med = 0.4 * med + 0.6 * temp.egz;
 }
