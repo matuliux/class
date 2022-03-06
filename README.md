@@ -17,3 +17,14 @@ Apsaugojimas nuo bugų:
   2. Programa tikrina ar įvestas logiškas pažymys arba egzamino rezultatas
   3. Pragrama tikrina ar įvestas teisingas pasirinkimas pažymių generacijai arba jų kiekiui
  
+ Jeigu pazymiai skaitomi is failo  
+   1. Atidaromas failas kursiokai.txt
+   2. Nuskaitomos eilutes ir suzinoma kiek yra studentu
+   3. Nuskaitomi stulpeliai ir suzinoma kiek jie turi pazymiu
+   4. Failai vedami i struktura Studentas
+   5. Apskaiciuojama moda ir vidurkis
+   6. Is namu darbu vektoriaus panaikinami pazymiai del vietos taupymo
+   7. Struktura perkeliama i vektoriu list
+   8. List isrusiuojamas pagal vardus arba pavardes
+   9. Isvedami rezultatai i faila arba terminala
+ 
