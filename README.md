@@ -83,9 +83,13 @@ Greiciai su 10000000:
   Visa programa uztruko 189.832s  
   
  V0.5:  
- Vector konteineris pakeistas i deque ir list kontenerius:
- Greiciu pasikeitimai:
- ![image](https://user-images.githubusercontent.com/100164021/161448268-677347ad-93d4-43df-a8e9-0e7e8f1da4c0.png)
+ Vector konteineris pakeistas i deque ir list kontenerius  
+ Greiciu pasikeitimai:  
+ ![image](https://user-images.githubusercontent.com/100164021/161448268-677347ad-93d4-43df-a8e9-0e7e8f1da4c0.png)  
+ Testavimo parametrai:  
+ CPU: Intel i5-10300H 2.50GHz  
+ RAM: 8GB  
+ SSD: 512GB 
 
  
  
