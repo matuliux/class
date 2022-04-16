@@ -85,7 +85,7 @@ Greiciai su 10000000:
  V0.5:  
  Vector konteineris pakeistas i deque ir list kontenerius  
  Greiciu pasikeitimai:  
- ![image](https://user-images.githubusercontent.com/100164021/161448268-677347ad-93d4-43df-a8e9-0e7e8f1da4c0.png)  
+ ![image](https://user-images.githubusercontent.com/100164021/163675641-6fb4be12-73f8-4bc5-9871-7a29c1baffbc.png)   
  Testavimo parametrai:  
  CPU: Intel i5-10300H 2.50GHz  
  RAM: 8GB  
