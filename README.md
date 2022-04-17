@@ -121,3 +121,11 @@ Programa padaro:
 3. Isrusiuoja duomenis pagal pasiekimo lygi  
 4. Isrusiuoja duomenis pagal pavarde  
 5. Isveda duomenis i du naujus failus  
+
+
+Laikai su pirma strategija:  
+![image](https://user-images.githubusercontent.com/100164021/163729505-250a3225-5463-4f3b-9f83-b40892a3d38c.png)  
+Laikai su antra strategija:  
+![image](https://user-images.githubusercontent.com/100164021/163729513-9ae36ecc-3300-4dd5-9a1b-1ae04875e2da.png)  
+
+
