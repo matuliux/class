@@ -28,3 +28,5 @@ Sie atnaujinimai padaro programa universalesne, palengvina programuotoju darba s
 V1.5  
 Sukurta abstrakcioji klase Zmogus  
 Klase Studentas - klases Zmogus delivered klase  
+![image](https://user-images.githubusercontent.com/100164021/168154156-2e80d72d-f830-4bd1-8aeb-aeac791409fa.png)  
+
