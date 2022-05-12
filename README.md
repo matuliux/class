@@ -1,5 +1,5 @@
 # V1.2
-V1.0 programa naudojanti vektorius ir 2 rusiavimo strategija modifikuota pakeiciant struct i class.  
+V1.1 programa naudojanti vektorius ir 2 rusiavimo strategija modifikuota pakeiciant struct i class.  
 Programoje realizuoti set'eriai ir get'eriai suteikia programai universalumo.  
 Programos paleidžiamąjį failą source.exe galima sukurti atsidarius konsolę visų failų aplanke ir parašyti komandą make vector.  
 
