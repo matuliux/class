@@ -1,4 +1,4 @@
-# V1.3
+# V1.5
 V1.0 programa naudojanti vektorius ir 2 rusiavimo strategija modifikuota pakeiciant struct i class.  
 Programoje realizuoti set'eriai ir get'eriai suteikia programai universalumo.  
 Programos paleidžiamąjį failą source.exe galima sukurti atsidarius konsolę visų failų aplanke ir parašyti komandą make vector.  
@@ -25,6 +25,6 @@ Studentas klasei sukurtas distruktorius, kopijavimo konstruktorius ir priskirimo
 Sie atnaujinimai padaro programa universalesne, palengvina programuotoju darba su ta pacia programa  
 ![image](https://user-images.githubusercontent.com/100164021/167295617-4f8ce693-e820-47b7-82f1-c0c88f6706f8.png)  
 
-V1.3  
+V1.5  
 Sukurta abstrakcioji klase Zmogus  
 Klase Studentas - klases Zmogus delivered klase  
