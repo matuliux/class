@@ -31,7 +31,7 @@ Sukurta abstrakcioji klase Zmogus
 Klase Studentas - klases Zmogus delivered klase  
 ![image](https://user-images.githubusercontent.com/100164021/168154156-2e80d72d-f830-4bd1-8aeb-aeac791409fa.png)  
 
-V2.0
+V2.0  
 Sukurta Doxygen dokumentacija.  
 Sukurtas msi idiegimo failas.  
 Parasyti 3 unit testai su catch 2 framework.  
