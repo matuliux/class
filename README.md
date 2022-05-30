@@ -1,4 +1,4 @@
-# class
+#V2.0
 
 V1.0 programa naudojanti vektorius ir 2 rusiavimo strategija modifikuota pakeiciant struct i class.  
 Programoje realizuoti set'eriai ir get'eriai suteikia programai universalumo.  
