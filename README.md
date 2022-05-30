@@ -45,3 +45,5 @@ shrink_to_fit - vektoriui skirtos atminties kiekis sumazinamas iki jo uzimamos v
 clear() - isvalo vektoriu.  
 reserve() - padidina vektoriuj skirtos atminties kieki.  
 Ir kitos vektoriui skirtos funkcijos  
+![image](https://user-images.githubusercontent.com/100164021/170936621-bf59fe0f-c241-4cf0-80ab-f5157e84ea0b.png)
+
