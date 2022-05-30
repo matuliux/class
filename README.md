@@ -38,3 +38,10 @@ Parasyti 3 unit testai su catch 2 framework.
 
 Vector  
 Sukurta vector klase  
+Realizuotos:  
+push_back() - elemento prijungimo metodas.  
+pop_back() - paskutinio elemento panaikinimo metodas.  
+shrink_to_fit - vektoriui skirtos atminties kiekis sumazinamas iki jo uzimamos vietos.  
+clear() - isvalo vektoriu.  
+reserve() - padidina vektoriuj skirtos atminties kieki.  
+Ir kitos vektoriui skirtos funkcijos  
